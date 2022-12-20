@@ -17,35 +17,45 @@ model2 = RobertaForMaskedLM.from_pretrained("roberta-base")
 text0 = "I am so <mask>"
 text1 = "look to the left"
 text2 = "on the left side"
-text3 = "heya"
+text3 = "he left me all alone"
+text4 = "ayo"
+
 encoded = tokenizer.encode(text0)
 print(encoded)
 
 
 inputs = tokenizer(text0, return_tensors="pt")
-mask_token_index = (inputs.input_ids == tokenizer.encode("am")[1])[0].nonzero(as_tuple=True)[0]
-print(mask_token_index)
-print(tokenizer.decode(50264))
+am_token_index = ((inputs.input_ids == tokenizer.encode("am")[1])[0].nonzero(as_tuple=True))[0]
+mask_token_index = ((inputs.input_ids == tokenizer.mask_token_id)[0].nonzero(as_tuple=True))[0]
+output0 = model(**inputs)
+am_vector = output0.last_hidden_state[0][am_token_index]
+mask_vector = output0.last_hidden_state[0][mask_token_index]
+#print(tokenizer.decode(50264))
 with torch.no_grad():
     logits = model2(**inputs).logits
-    mask_token_index = (inputs.input_ids == tokenizer.encode("am")[1])[0].nonzero(as_tuple=True)[0]
-    predicted_token_id = logits[0, mask_token_index].argmax(axis=-1)
+    top5mask = torch.topk(logits[0, mask_token_index], 5).indices
+    predicted_token_id = top5mask[0]
     print(tokenizer.decode(predicted_token_id))
-    print(logits.shape)
+    top5am = torch.topk(logits[0, am_token_index], 5).indices
+    predicted_token_id = top5am[0]
+    print(tokenizer.decode(predicted_token_id))
 encoded_input1 = tokenizer(text1, return_tensors='pt')
-
 encoded_input2 = tokenizer(text2, return_tensors='pt')
-encoded_input3 = tokenizer.tokenize(text3, return_tensors='pt')
+encoded_input3 = tokenizer(text3, return_tensors='pt')
+encoded_input4 = tokenizer.tokenize(text4, return_tensors='pt')
 
-#mask_token_index = (encoded_input3.input_ids == tokenizer.encode("heya")[1])[0].nonzero(as_tuple=True)[0]
-print(encoded_input3)
-output1 = model(**inputs)
+output1 = model(**encoded_input1)
 output2 = model(**encoded_input2)
-print(output1.last_hidden_state[0][2])
+output3 = model(**encoded_input3)
+left_token_index1 = ((encoded_input1.input_ids == tokenizer.encode("left")[1])[0].nonzero(as_tuple=True))[0]
+left_token_index2 = ((encoded_input2.input_ids == tokenizer.encode("left")[1])[0].nonzero(as_tuple=True))[0]
+left_token_index3 = ((encoded_input3.input_ids == tokenizer.encode("left")[1])[0].nonzero(as_tuple=True))[0]
 
-matrix1 = output1.last_hidden_state[0][4]
-matrix2 = output2.last_hidden_state[0][3]
 cos = torch.nn.CosineSimilarity(dim=0, eps=1e-6)
-#print("Cosine Similarity: " + str(cos(matrix1, matrix2.T)))
+print("Cosine Similarity high: " + str(cos(output1.last_hidden_state[0][left_token_index1][0],
+                                          output2.last_hidden_state[0][left_token_index2][0].T)))
+print("Cosine Similarity low: " + str(cos(output1.last_hidden_state[0][left_token_index1][0],
+                                          output3.last_hidden_state[0][left_token_index3][0].T)))
+print("tokens of 'ayo' : " + str(encoded_input4))
 
 

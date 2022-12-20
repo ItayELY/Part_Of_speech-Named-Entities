@@ -68,7 +68,7 @@ total = 0
 
 
 print("started:")
-with open("./data/ass1-tagger-dev") as f:
+'''with open("./data/ass1-tagger-dev") as f:
     line = f.readline()
     c = 0
     while line != '':
@@ -106,51 +106,10 @@ with open("./data/ass1-tagger-dev") as f:
                     total += 1
 
                     continue
-                    '''                    else:
-                        real_pos = w_list[1]
-                        pred_pos = max(pos_count, key=pos_count.get)
-                        if real_pos == pred_pos:
-                            true += 1
-                        total += 1
-                        continue'''
-
 
                 if word in words.keys():
                     preds = {}
                     counts = words[word].counts
-                    '''preds[max(counts, key=counts.get)] = 1
-                    list1 = sorted(words[word].counts.values())
-                    if len(list1) > 1 and (list1[-2]/list1[-1]) > 5/6:
-                        try:
-                            items = word_to_vec.items()
-                            vecs = [i[1] for i in items]
-                            distances = distance.cdist([word_to_vec[word]], vecs, "cosine")[0]
-                            items = list(items)
-                            new_dict = {}
-                            for i in range(len(distances)):
-                                new_dict[distances[i]] = items[i][0]
-                            i = 0
-                            for k in sorted(new_dict):
-                                if i == 1:
-                                    break
-                                counts1 = words[new_dict[k]].counts
-                                for pair in counts1.items():
-                                    try:
-                                        counts[pair[0]] += pair[1]
-                                    except:
-                                        counts[pair[0]] = pair[1]
-                                try:
-                                    preds[max(counts1, key=counts.get)] += 1
-                                except:
-                                    preds[max(counts1, key=counts.get)] = 1
-                                i += 1
-                        except Exception as inst:
-                            pass
-
-
-'''
-
-
                     real_pos = w_list[1]
                     pred_pos = max(counts, key=counts.get)
                     if real_pos == pred_pos:
@@ -160,3 +119,44 @@ with open("./data/ass1-tagger-dev") as f:
 
         line = f.readline()
 print("accuracy: " + str(true/total) + " " + str(true) + " correct out of " + str(total))
+'''
+with open("POS_preds_3.txt", "w") as f1:
+    with open("./data/ass1-tagger-test-input") as f2:
+        line = f2.readline()
+
+        while line != '':
+            new_line = []
+            sent_list = line.split(' ')
+            inputs = tokenizer(line, return_tensors="pt")
+            for w in sent_list:
+                word = w
+
+                if word != '.\n':
+                    if word not in words.keys():
+                        try:
+                            word_token_index = \
+                                ((inputs.input_ids == tokenizer.encode(word)[1])[0].nonzero(as_tuple=True))[0][0]
+                            vec = model(**inputs).last_hidden_state[0][word_token_index]
+                            items = list(pos_to_vec.items())
+                            vectors = torch.tensor([items[0][1].tolist()])
+                            for i in range(1, len(items)):
+                                vectors = torch.cat((vectors, torch.tensor([items[i][1].tolist()])), 0)
+                            new_vectors = torch.tensor([vectors.tolist()])
+
+                            new_vec = torch.tensor([vec.tolist()])
+                            distances = torch.cdist(new_vec, new_vectors, p=2)[0]
+                            min_index = torch.argmin(distances)
+                            closest_pair = items[min_index][0]
+                            pred_pos = closest_pair[1]
+                            new_line.append('/'.join([w, pred_pos]))
+
+                        except Exception as inst:
+                            print(inst)
+                            pred_pos = max(pos_count, key=pos_count.get)
+                            new_line.append('/'.join([w, pred_pos]))
+                    else:
+                        pred_pos = max(words[word].counts, key=words[word].counts.get)
+                        new_line.append('/'.join([w, pred_pos]))
+            new_line.append('./.\n')
+            f1.write(' '.join(new_line))
+            line = f2.readline()
