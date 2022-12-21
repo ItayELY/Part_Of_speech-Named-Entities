@@ -13,7 +13,7 @@ Many/JJ other/JJ factors/NNS played/VBD a/DT part/NN in/IN yesterday/NN 's/POS c
 The/DT Federal/NNP Reserve/NNP signaled/VBD its/PRP$ willingness/NN to/TO provide/VB liquidity/NN ;/: the/DT interest/NN rate/NN on/IN its/PRP$ loans/NNS to/TO major/JJ banks/NNS inched/VBD downward/JJ early/JJ in/IN the/DT day/NN ./.
 Foreign/NNP stock/NN markets/NNS ,/, which/WDT kicked/VBD off/RP Black/NNP Monday/NNP with/IN a/DT huge/JJ selling/VBG spree/NN ,/, began/VBD the/DT day/NN off/RP by/IN relatively/RB modest/JJ amounts/NNS ./.
 The/DT dollar/NN ,/, after/IN falling/VBG sharply/RB in/IN overnight/JJ trading/NN to/TO 139.10/NN yen/NNS ,/, bounced/VBD back/RB strongly/RB to/TO 141.8/CD ,/, thus/RB easing/VBG fears/NNS that/IN foreigners/NNS would/MD unload/VB U.S./NNP stocks/NNS ./.
-And/CC the/DT widely/RB disseminated/VBN opinion/NN among/IN most/RBS market/NN experts/NNS that/IN a/DT crash/NN was/VBD n't/RB in/IN store/NN also/RB helped/VBD calm/JJ investors/NNS ./.
+And/CC the/DT widely/RB disseminated/VBN opinion/NN among/IN most/JJS market/NN experts/NNS that/IN a/DT crash/NN was/VBD n't/RB in/IN store/NN also/RB helped/VBD calm/JJ investors/NNS ./.
 Many/JJ major/JJ institutions/NNS ,/, for/IN example/NN ,/, came/VBD into/IN work/NN yesterday/NN ready/JJ to/TO buy/VB some/DT of/IN the/DT blue/JJ chips/NNS they/PRP felt/VBD had/VBD been/VBN sharply/RB undervalued/VBN on/IN Friday/NNP ./.
 Still/RB ,/, amid/IN all/DT the/DT backslapping/NN and/CC signs/NNS of/IN relief/NN over/IN yesterday/NN 's/POS events/NNS ,/, some/DT market/NN professionals/NNS cautioned/VBD that/IN there/EX is/VBZ nothing/NN present/JJ in/IN the/DT current/JJ market/NN system/NN to/TO prevent/VB another/DT dizzying/JJ drop/NN such/JJ as/IN Friday/NNP 's/POS ./.
 ``/`` There/EX is/VBZ too/RB much/JJ complacency/NN ,/, ''/'' says/VBZ money/NN manager/NN Barry/NNP Schrager/NNP ./.
@@ -21,7 +21,7 @@ Computers/NNPS have/VBP increasingly/RB connected/VBN securities/NNS markets/NNS
 So/RB investors/NNS everywhere/RB nervously/RB eyed/NNS yesterday/NN 's/POS opening/NN in/IN Tokyo/NNP ,/, where/WRB the/DT Nikkei/NNP average/JJ of/IN 225/CD blue-chip/JJ stocks/NNS got/VBD off/RP to/TO a/DT rocky/JJ start/VB ./.
 The/DT average/JJ plunged/VBD some/DT 600/CD points/NNS ,/, or/CC 1.7/CD %/NN ,/, in/IN the/DT first/JJ 20/CD minutes/NNS of/IN trading/NN ./.
 But/CC the/DT selling/VBG wave/NN had/VBD no/DT conviction/NN ,/, and/CC the/DT market/NN first/JJ surged/VBD upward/RB by/IN 200/CD points/NNS ,/, then/RB drifted/VBD lower/JJR ,/, closing/NN down/RB 647/CD ./.
-Unlike/IN two/CD years/NNS ago/RB ,/, most/RBS of/IN Japan/NNP 's/POS major/JJ investors/NNS chose/VBD to/TO sit/VB this/DT calamity/NN out/RP ./.
+Unlike/IN two/CD years/NNS ago/RB ,/, most/JJS of/IN Japan/NNP 's/POS major/JJ investors/NNS chose/VBD to/TO sit/VB this/DT calamity/NN out/RP ./.
 In/IN Merrill/NNP Lynch/NNP &/CC Co./NNP 's/POS Tokyo/NNP trading/NN room/NN ,/, some/DT 40/CD traders/NNS and/CC assistants/NNS sat/VBD quietly/RB ,/, with/IN few/JJ orders/NNS to/TO process/NN ./.
 Clients/NNS ``/`` are/VBP all/DT staying/VBG out/RP ''/'' of/IN the/DT market/NN ,/, one/CD Merrill/NNP trader/NN says/VBZ ./.
 The/DT relative/JJ calm/JJ in/IN Tokyo/NNP proved/VBD little/JJ comfort/NN to/TO markets/NNS opening/NN up/RP in/IN Europe/NNP ./.
@@ -33,15 +33,15 @@ A/DT computer/NN screen/NN displaying/VBG 100/CD blue-chip/JJ stocks/NNS colors/
 The/DT screen/NN was/VBD a/DT sea/NN of/IN red/JJ ./.
 ``/`` I/PRP see/VB concern/NN ,/, but/CC I/PRP do/VBP n't/RB see/VB panic/NN ,/, ''/'' says/VBZ J./NNP Francis/NNP Palamara/NN ,/, a/DT New/NNP Yorker/NNP who/WP runs/VBZ the/DT 15-trader/NN office/NN ./.
 London/NNP 's/POS blue-chip/JJ stock/NN index/NN turned/VBD up/RP just/RB before/IN 8/CD a.m/RB ./.
- New/NNP York/NNP time/NN ,/, sending/VBG an/DT encouraging/JJ message/NN to/TO Wall/NNP Street/NNP ./.
+ New/NNP York/NNP time/NN ,/, sending/VBG an/DT encouraging/VBG message/NN to/TO Wall/NNP Street/NNP ./.
 When/WRB trading/NN opened/VBD in/IN New/NNP York/NNP at/IN 9:30/CD a.m./RB EDT/NNP ,/, stocks/NNS fell/VBD sharply/RB --/: as/IN expected/VBN ./.
 Futures/NNPS markets/NNS in/IN Chicago/NNP had/VBD opened/VBD at/IN a/DT level/NN suggesting/VBG the/DT Dow/NNP would/MD fall/NN by/IN about/IN 60/CD points/NNS ./.
-With/IN sell/VB orders/NNS piled/VBD up/RP from/IN Friday/NNP ,/, about/IN half/NN the/DT stocks/NNS in/IN the/DT Dow/NNP could/MD n't/RB open/JJ on/IN time/NN ./.
+With/IN sell/VB orders/NNS piled/VBN up/RP from/IN Friday/NNP ,/, about/IN half/NN the/DT stocks/NNS in/IN the/DT Dow/NNP could/MD n't/RB open/JJ on/IN time/NN ./.
 By/IN 9:45/CD ,/, the/DT industrial/JJ average/JJ had/VBD dropped/VBD 27/CD points/NNS ./.
 By/IN 10/CD a.m./RB ,/, it/PRP was/VBD down/RB 49/CD ./.
 Ten/CD minutes/NNS later/RB ,/, the/DT Dow/NNP hit/VBD bottom/NN -/: down/RB 63.52/CD points/NNS ,/, another/DT 2.5/CD %/NN ./.
 But/CC shortly/RB before/IN then/RB ,/, some/DT of/IN Wall/NNP Street/NNP 's/POS sharpest/JJS traders/NNS say/VBP ,/, they/PRP sensed/VBD a/DT turn/VB ./.
-``/`` The/DT first/JJ thing/NN that/IN caught/VBN my/PRP$ eye/NN that/IN was/VBD encouraging/JJ was/VBD Treasury/NNP bonds/NNS were/VBD off/RP ,/, ''/'' says/VBZ Austin/NNP George/NNP ,/, head/NN of/IN stock/NN trading/NN at/IN T./NNP Rowe/NNP Price/NNP ./.
+``/`` The/DT first/JJ thing/NN that/IN caught/VBN my/PRP$ eye/NN that/IN was/VBD encouraging/VBG was/VBD Treasury/NNP bonds/NNS were/VBD off/RP ,/, ''/'' says/VBZ Austin/NNP George/NNP ,/, head/NN of/IN stock/NN trading/NN at/IN T./NNP Rowe/NNP Price/NNP ./.
 ``/`` It/PRP meant/VBN that/IN people/NNS were/VBD n't/RB running/VBG pell-mell/NN to/TO the/DT safety/NN of/IN bonds/NNS ./.
  ''
 /NN ./.
@@ -98,15 +98,15 @@ Ralph/NNP Holzfaster/NN ,/, a/DT farmer/NN and/CC farm-supply/NN store/NN operat
 /NN ./.
 Says/VBZ Gordon/NNP Fines/NNS ,/, a/DT money/NN manager/NN at/IN IDS/NNP Financial/NNP Services/NNPS in/IN Minneapolis/NNP ,/, ``/`` You/PRP 're/VBP on/IN a/DT roller/NN coaster/NN ,/, and/CC that/IN may/MD last/JJ ./.
 The/DT public/JJ is/VBZ still/RB cautious/JJ ./.
-Skipper/NN 's/POS Inc./NNP ,/, Bellevue/NNP ,/, Wash./NNP ,/, said/VBD it/PRP signed/VBD a/DT definitive/JJ merger/NN agreement/NN for/IN a/DT National/NNP Pizza/NNP Corp./NNP unit/NN to/TO acquire/VB the/DT 90.6/CD %/NN of/IN Skipper/NN 's/POS Inc./NNP it/PRP does/VBZ n't/RB own/JJ for/IN $/$ 11.50/CD a/DT share/NN ,/, or/CC about/IN $/$ 28.1/CD million/CD ./.
-NP/NNP Acquisition/NNP Co./NNP ,/, a/DT National/NNP Pizza/NNP unit/NN ,/, plans/NNS to/TO begin/VB a/DT tender/NN offer/NN for/IN Skipper/NN 's/POS on/IN Friday/NNP ,/, conditioned/VBN on/IN at/IN least/JJS two-thirds/NNS of/IN Skipper/NN 's/POS shares/NNS being/VBG tendered/VBN ./.
+Skipper/VBP 's/POS Inc./NNP ,/, Bellevue/NNP ,/, Wash./NNP ,/, said/VBD it/PRP signed/VBD a/DT definitive/JJ merger/NN agreement/NN for/IN a/DT National/NNP Pizza/NNP Corp./NNP unit/NN to/TO acquire/VB the/DT 90.6/CD %/NN of/IN Skipper/VBP 's/POS Inc./NNP it/PRP does/VBZ n't/RB own/JJ for/IN $/$ 11.50/CD a/DT share/NN ,/, or/CC about/IN $/$ 28.1/CD million/CD ./.
+NP/NNP Acquisition/NNP Co./NNP ,/, a/DT National/NNP Pizza/NNP unit/NN ,/, plans/NNS to/TO begin/VB a/DT tender/NN offer/NN for/IN Skipper/VBP 's/POS on/IN Friday/NNP ,/, conditioned/VBN on/IN at/IN least/JJS two-thirds/NNS of/IN Skipper/VBP 's/POS shares/NNS being/VBG tendered/VBN ./.
 Pittsburg/NNP ,/, Kan.-based/JJ National/NNP Pizza/NNP said/VBD the/DT transaction/NN will/MD be/VB financed/VBN under/IN its/PRP$ revolving/JJ credit/NN agreement/NN ./.
-In/IN national/JJ over-the-counter/JJ trading/NN ,/, Skipper/NN 's/POS shares/NNS rose/VBD 50/CD cents/NNS to/TO $/$ 11/CD ./.
-Skipper/NN 's/POS said/VBD the/DT merger/NN will/MD help/VB finance/NN remodeling/VBG and/CC future/JJ growth/NN ./.
-Skipper/NN 's/POS previously/RB turned/VBD down/RB a/DT $/$ 10-a-share/JJ proposal/NN from/IN National/NNP Pizza/NNP and/CC Pizza/NNP Hut/NNP Inc./NNP questioned/VBD whether/IN the/DT purchase/NN would/MD violate/VB National/NNP Pizza/NNP 's/POS franchise/NN agreements/NNS ./.
+In/IN national/JJ over-the-counter/JJ trading/NN ,/, Skipper/VBP 's/POS shares/NNS rose/VBD 50/CD cents/NNS to/TO $/$ 11/CD ./.
+Skipper/VBP 's/POS said/VBD the/DT merger/NN will/MD help/VB finance/NN remodeling/VBG and/CC future/JJ growth/NN ./.
+Skipper/VBP 's/POS previously/RB turned/VBD down/RB a/DT $/$ 10-a-share/JJ proposal/NN from/IN National/NNP Pizza/NNP and/CC Pizza/NNP Hut/NNP Inc./NNP questioned/VBD whether/IN the/DT purchase/NN would/MD violate/VB National/NNP Pizza/NNP 's/POS franchise/NN agreements/NNS ./.
 National/NNP Pizza/NNP said/VBD it/PRP settled/VBN its/PRP$ dispute/NN with/IN Pizza/NNP Hut/NNP ,/, allowing/VBG it/PRP to/TO make/VB the/DT purchase/NN ./.
-Also/RB ,/, Skipper/NN 's/POS results/NNS began/VBD to/TO turn/VB around/IN ,/, permitting/VBG a/DT higher/JJR offer/NN ,/, National/NNP Pizza/NNP said/VBD ./.
-For/IN the/DT 12/CD weeks/NNS ended/VBD Sept./NNP 3/CD ,/, Skipper/NN 's/POS had/VBD net/JJ income/NN of/IN $/$ 361,000/CD ,/, or/CC 13/CD cents/NNS a/DT share/NN ,/, compared/VBN with/IN a/DT net/JJ loss/NN a/DT year/NN earlier/RBR ./.
+Also/RB ,/, Skipper/VBP 's/POS results/NNS began/VBD to/TO turn/VB around/IN ,/, permitting/VBG a/DT higher/JJR offer/NN ,/, National/NNP Pizza/NNP said/VBD ./.
+For/IN the/DT 12/CD weeks/NNS ended/VBD Sept./NNP 3/CD ,/, Skipper/VBP 's/POS had/VBD net/JJ income/NN of/IN $/$ 361,000/CD ,/, or/CC 13/CD cents/NNS a/DT share/NN ,/, compared/VBN with/IN a/DT net/JJ loss/NN a/DT year/NN earlier/RBR ./.
 Revenue/NN was/VBD $/$ 19.9/CD million/CD ./.
 EAST/NNS GERMANS/NNS RALLIED/VBD as/IN officials/NNS reportedly/RB sought/VBN Honecker/NNP 's/POS ouster/NN ./.
 In/IN what/WP was/VBD considered/VBN the/DT largest/JJS protest/NN in/IN the/DT Communist/NNP state/NN 's/POS 40-year/JJ history/NN ,/, at/IN least/JJS 120,000/CD demonstrators/NNS marched/VBD through/IN the/DT southern/JJ city/NN of/IN Leipzig/NNP to/TO press/NN demands/NNS for/IN democratic/JJ freedoms/NNS ,/, opposition/NN activists/NNS said/VBD ./.
@@ -136,7 +136,7 @@ Differences/NNS remained/VBD between/IN the/DT North/NNP and/CC South/NNP Korean
 Freed/NNP black/JJ nationalists/NNS resumed/VBD political/JJ activity/NN in/IN South/NNP Africa/NNP and/CC vowed/VBD to/TO fight/VB against/IN apartheid/NN ,/, raising/VBG fears/NNS of/IN a/DT possible/JJ white/JJ backlash/NN ./.
 The/DT nation/NN 's/POS main/JJ white/JJ opposition/NN party/NN warned/VBD that/IN the/DT government/NN 's/POS release/NN Sunday/NNP of/IN eight/CD black/JJ political/JJ prisoners/NNS risked/VBD bringing/VBG chaos/NN and/CC eventual/JJ black/JJ Marxist/JJ rule/NN to/TO the/DT nation/NN ./.
 The/DT White/NNP House/NNP said/VBD Bush/NNP is/VBZ ``/`` fully/RB satisfied/VBN ''/'' with/IN CIA/NNP Director/NNP Webster/NNP and/CC the/DT intelligence/NN agency/NN 's/POS performance/NN during/IN the/DT Oct./NNP 3/CD failed/VBD coup/NN in/IN Panama/NNP ./.
-The/DT Washington/NNP Post/NNP reported/VBD that/IN unidentified/JJ senior/JJ administration/NN officials/NNS were/VBD frustrated/VBN with/IN Webster/NNP 's/POS low-profile/JJ activities/NNS during/IN the/DT insurrection/NN and/CC wanted/VBD him/PRP replaced/VBD ./.
+The/DT Washington/NNP Post/NNP reported/VBD that/IN unidentified/JJ senior/JJ administration/NN officials/NNS were/VBD frustrated/JJ with/IN Webster/NNP 's/POS low-profile/JJ activities/NNS during/IN the/DT insurrection/NN and/CC wanted/VBD him/PRP replaced/VBD ./.
 Poland/NNP 's/POS legislature/NN approved/VBN limits/NNS on/IN automatic/JJ wage/NN increases/NNS without/IN special/JJ provisions/NNS for/IN food/NN price/NN rises/VBZ ./.
 The/DT vote/NN was/VBD considered/VBN a/DT test/NN of/IN the/DT Solidarity-led/JJ government/NN 's/POS resolve/VB to/TO proceed/VB with/IN a/DT harsh/JJ economic-restructuring/NN program/NN ./.
 Norway/NNP 's/POS King/NNP Olav/NNP V/NNP installed/VBN a/DT three-party/JJ non-Socialist/JJ government/NN as/IN Gro/NNP Harlem/NNP Brundtland/NNP 's/POS three-year-old/JJ Labor/NNP regime/NN relinquished/VBN power/NN ./.
@@ -209,7 +209,7 @@ In/IN Barry/NNP Wright/NNP ,/, Mr./NNP Sim/NN sees/VBZ a/DT situation/NN ``/`` v
 Applied/NNP ,/, then/RB a/DT closely/RB held/VBN company/NN ,/, was/VBD stagnating/JJ under/IN the/DT management/NN of/IN its/PRP$ controlling/VBG family/NN ./.
 While/IN profitable/JJ ,/, it/PRP ``/`` was/VBD n't/RB growing/VBG and/CC was/VBD n't/RB providing/VBG a/DT satisfactory/JJ return/NN on/IN invested/VBN capital/NN ,/, ''/'' he/PRP says/VBZ ./.
 Mr./NNP Sim/NN is/VBZ confident/JJ that/IN the/DT drive/NN to/TO dominate/VB certain/JJ niche/NN markets/NNS will/MD work/NN at/IN Barry/NNP Wright/NNP as/IN it/PRP has/VBZ at/IN Applied/NNP ./.
-He/PRP also/RB professes/VBZ an/DT ``/`` evangelical/NNP ''/'' fervor/NN to/TO develop/VB a/DT corporate/JJ culture/NN that/IN rewards/NNS managers/NNS who/WP produce/VB and/CC where/WRB decision-making/JJ is/VBZ shared/VBN ./.
+He/PRP also/RB professes/VBZ an/DT ``/`` evangelical/JJ ''/'' fervor/NN to/TO develop/VB a/DT corporate/JJ culture/NN that/IN rewards/NNS managers/NNS who/WP produce/VB and/CC where/WRB decision-making/JJ is/VBZ shared/VBN ./.
 Mr./NNP Sim/NN considers/VBZ the/DT new/JJ unit/NN 's/POS operations/NNS ``/`` fundamentally/RB sound/NN ''/'' and/CC adds/VBZ that/IN Barry/NNP Wright/NNP has/VBZ been/VBN fairly/RB successful/JJ in/IN moving/VBG into/IN markets/NNS that/IN have/VBP n't/RB interested/JJ larger/JJR competitors/NNS ./.
 ``/`` With/IN a/DT little/JJ patience/NN ,/, these/DT businesses/NNS will/MD perform/VB very/RB satisfactorily/RB ,/, ''/'' Mr./NNP Sim/NN says/VBZ ./.
 Within/IN about/IN six/CD months/NNS ,/, ``/`` things/NNS will/MD be/VB moving/VBG in/IN the/DT right/NN direction/NN ,/, ''/'' he/PRP predicts/VBZ ./.

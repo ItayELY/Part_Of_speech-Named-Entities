@@ -19,24 +19,24 @@ entities = {}
 with open("./data/train") as f:
     line = f.readline()
     c = 0
-    while line != '' and c < 300:
+    while line != '' and c < 200:
 
         if c % 10 == 0:
             print(c)
         c += 1
-        print(line)
         sent_list = line.split(' ')
 
         split_again = [w.split('/') for w in sent_list]
         sentence = (' ').join([i[0] for i in split_again])
         inputs = tokenizer(sentence, return_tensors="pt")
+        outputs = model(**inputs).last_hidden_state[0]
         for w in sent_list:
             w_list = w.split('/')
             if '\n' in w_list[1]:
                 w_list[1] = (w_list[1])[:(len(w_list[1]) - 1)]
             if w_list[1] != 'O' and w_list[0] not in entities.keys():
                 word_token_index = (inputs.input_ids == tokenizer.encode(w_list[0])[1])[0].nonzero(as_tuple=True)[0][0]
-                ner_to_vec[(w_list[0], w_list[1])] = model(**inputs).last_hidden_state[0][word_token_index]
+                ner_to_vec[(w_list[0], w_list[1])] = outputs[word_token_index]
                 entities[w_list[0].lower()] = w_list[1]
             else:
                 if w_list[0] not in reg_words:
@@ -52,8 +52,8 @@ total_positive = 0
 
 
 print("started:")
-with open("./data/dev_pred", 'w') as fw:
-    with open("./data/dev") as f:
+with open("./data/dev_better_pred", 'w') as fw:
+    with open("./data/dev_better") as f:
 
         line = f.readline()
         c = 0
@@ -70,7 +70,8 @@ with open("./data/dev_pred", 'w') as fw:
                     w_list[-1] = (w_list[-1])[:(len(w_list[-1]) - 1)]
                 word2 = '/'.join(w_list[:-1])
                 word = w_list[0]
-                inputs = None
+                inputs = tokenizer(sentence, return_tensors="pt")
+                outputs = model(**inputs).last_hidden_state[0]
                 pred_pos = ''
                 if word.lower() not in reg_words:
                     if word.lower() in entities.keys():
@@ -84,11 +85,10 @@ with open("./data/dev_pred", 'w') as fw:
                         pred_pos = entities[word.lower()]
 
                     else:
-                        if inputs == None:
-                            inputs = tokenizer(sentence, return_tensors="pt")
+
                         word_token_index = \
                             ((inputs.input_ids == tokenizer.encode(word)[1])[0].nonzero(as_tuple=True))[0][0]
-                        vec = model(**inputs).last_hidden_state[0][word_token_index]
+                        vec = outputs[word_token_index]
                         items = list(ner_to_vec.items())
                         vectors = torch.tensor([items[0][1].tolist()])
                         for i in range(1, len(items)):
@@ -96,7 +96,7 @@ with open("./data/dev_pred", 'w') as fw:
                         new_vectors = torch.tensor([vectors.tolist()])
 
                         new_vec = torch.tensor([vec.tolist()])
-                        distances = torch.cdist(new_vec, new_vectors, p=2)[0]
+                        distances = torch.cdist(new_vec, new_vectors, p=2)
                         pred_pos = 'O'
                         if torch.min(distances) < 7:
                             min_index = torch.argmin(distances)

@@ -32,10 +32,23 @@ am_vector = output0.last_hidden_state[0][am_token_index]
 mask_vector = output0.last_hidden_state[0][mask_token_index]
 #print(tokenizer.decode(50264))
 with torch.no_grad():
+    labels = inputs["input_ids"]
+    output = model2(**inputs, labels=labels)
+
+    # mask labels of non-<mask> tokens
+    labels = torch.where(inputs.input_ids == tokenizer.mask_token_id, labels, -100)
+
+    outputs = model(**inputs, labels=labels)
     logits = model2(**inputs).logits
+    pt_predictions = torch.nn.functional.softmax(output.logits, dim=-1)
+    print(output)
+    print(logits.shape)
     top5mask = torch.topk(logits[0, mask_token_index], 5).indices
+    top5mask_prob = torch.topk(pt_predictions[0, mask_token_index], 5).indices
     predicted_token_id = top5mask[0]
+    predicted_token_id_prob = top5mask_prob[0]
     print(tokenizer.decode(predicted_token_id))
+    print(tokenizer.decode(predicted_token_id_prob))
     top5am = torch.topk(logits[0, am_token_index], 5).indices
     predicted_token_id = top5am[0]
     print(tokenizer.decode(predicted_token_id))
